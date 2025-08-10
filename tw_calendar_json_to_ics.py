@@ -7,8 +7,6 @@ import uuid
 import argparse
 import datetime as dt
 
-JSON_DIR_DEFAULT = os.path.join("data", "json")
-ICS_DIR_DEFAULT = os.path.join("data", "calendars")
 
 def dtstamp_now():
     return dt.datetime.now().strftime("%Y%m%dT%H%M%S")
